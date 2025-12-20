@@ -1,15 +1,13 @@
+import logo from "./logo.svg";
+import "./App.css";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Container from "./container";
+import Details from "./details";
+import Asma from "./components/asma";
+import Hajar from "./components/hajar";
 
-
-import logo from './logo.svg';
-import './App.css';
-import { BrowserRouter,Routes,Route } from 'react-router-dom';
-import Container from './container';
-import Details from './details';
-import Asma from './components/asma';
-import Hajar from './components/hajar';
-
-import Meriem from './components/meriem';
-
+import Meriem from "./components/meriem";
+import Sina from "./components/sina";
 import Soukaina from "./components/soukaina";
 
 function App() {
@@ -23,9 +21,8 @@ function App() {
         <Route path="/stagiaires/abbou" element={<Meriem />} />
         <Route path="/stagiaires/Menguit" element={<Soukaina />} />
 
-
-        <Route path='/stagiaires/bouhssine' element={<Hajar/>} />
-
+        <Route path="/stagiaires/bouhssine" element={<Hajar />} />
+        <Route path="/stagiaires/sina" element={<Sina />} />
       </Routes>
     </BrowserRouter>
   );

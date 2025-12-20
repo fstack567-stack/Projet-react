@@ -8,6 +8,8 @@ const users = [
   { id: "Menguit", nom: "Menguit", prenom: "Soukaina" },
   { id: "ailal", nom: "Ailal", prenom: "Youness" },
   { id: "bouhssine", nom: "Bouhssine", prenom: "Hajar" },
+  { id: "rady", nom: "Rady", prenom: "Safouane" },
+  { id: "elaarabi", nom: "elaarabi", prenom: "rida" },
   { id: "sina", nom: "Sina", prenom: "Youssef" },
   { id: "elkaidi", nom: "Elkaidi", prenom: "Younes" },
 ];

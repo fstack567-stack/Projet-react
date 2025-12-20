@@ -6,7 +6,7 @@ import Hajar from "./components/hajar";
 import Meriem from "./components/meriem";
 import Soukaina from "./components/soukaina";
 import Safouane from "./components/safouane";
- 
+
 import Rida from "./components/rida";
 
 import SaraE from "./components/sara";
@@ -14,13 +14,14 @@ import SaraE from "./components/sara";
 import Sina from "./components/sina";
 import Ailal from "./components/Ailal";
 import Soufyane from "./components/soufyane";
-import Younes from './components/elkaidi';
-import Ahmed from './components/ahmed';
+import Younes from "./components/elkaidi";
+import Ahmed from "./components/ahmed";
 import Laarif from "./components/laarif";
-import Moumen from "./components/Moumen"
+import Moumen from "./components/Moumen";
 import Khadija from "./components/khadija";
 import Salma from "./components/salma";
- 
+
+import Oussama from "./components/Oussama";
 
 function App() {
   return (
@@ -28,7 +29,6 @@ function App() {
       <Routes>
         <Route path="/" element={<Container />} />
         <Route path="/details" element={<Details />} />
-
         <Route path="/stagiaires/ajermoune" element={<Asma />} />
         <Route path="/stagiaires/abbou" element={<Meriem />} />
         <Route path="/stagiaires/Menguit" element={<Soukaina />} />
@@ -41,17 +41,18 @@ function App() {
         <Route path="/stagiaires/sina" element={<Sina />} />
         <Route path="/stagiaires/ailal" element={<Ailal />} />
         <Route path="/stagiaires/laarif" element={<Laarif />} />
-         <Route path="/stagiaires/elorf" element={<SaraE />} />
-         <Route path="/stagiaires/moumen" element={<Moumen />} />
+        <Route path="/stagiaires/elorf" element={<SaraE />} />
+        <Route path="/stagiaires/moumen" element={<Moumen />} />
 
-        <Route path="/stagiaires/Idoumghar" element={<Khadija/>} />
-       
+        <Route path="/stagiaires/Idoumghar" element={<Khadija />} />
 
+        <Route path="/stagiaires/elkaidi" element={<Younes />} />
+        <Route path="/stagiaires/ahmed" element={<Ahmed />} />
 
-        <Route path='/stagiaires/elkaidi' element={<Younes/>} />
-        <Route path='/stagiaires/ahmed' element={<Ahmed/>} />
-
-        <Route path="/stagiaires/salma" element={<Salma/>}  />
+        <Route path="/stagiaires/salma" element={<Salma />} />
+        <Route path="/stagiaires/bouhssine" element={<Hajar />} />
+        <Route path="/stagiaires/elkaidi" element={<Younes />} />
+        <Route path="/stagiaires/kazzi" element={<Oussama />} />
       </Routes>
     </BrowserRouter>
   );

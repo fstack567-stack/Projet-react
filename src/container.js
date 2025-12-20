@@ -1,19 +1,12 @@
 import { Link } from "react-router-dom";
 
 const users = [
-
   { id: "ajermoune", nom: "Ajermoune", prenom: "Asma" },
   { id: "abbou", nom: "Abbou", prenom: "Meriem" },
   { id: "Aidane", nom: "Aidane", prenom: "Soufyane" },
   { id: "Menguit", nom: "Menguit", prenom: "Soukaina" },
-<<<<<<< HEAD
-
-=======
-  { id: "bouhssine", nom: "Bouhssine", prenom: "Hajar" }, 
-  { id: "sina", nom: "Sina", prenom: "Youssef" }, 
   { id: "bouhssine", nom: "Bouhssine", prenom: "Hajar" },
-  { id: "rady", nom: "Rady", prenom: "Safouane" }
->>>>>>> bad96bf0c922c1196893488569b066b57622234e
+  { id: "sina", nom: "Sina", prenom: "Youssef" },
 ];
 
 export default function Container() {

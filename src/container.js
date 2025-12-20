@@ -6,7 +6,6 @@ const users = [
   { id: "Menguit", nom: "Menguit", prenom: "Soukaina" },
   { id: "bouhssine", nom: "Bouhssine", prenom: "Hajar" }, 
   { id: "sina", nom: "Sina", prenom: "Youssef" }, 
-  { id: "bouhssine", nom: "Bouhssine", prenom: "Hajar" },
   { id: "rady", nom: "Rady", prenom: "Safouane" }
 ];
 
@@ -16,8 +15,8 @@ export default function Container() {
       <h1 className="title">CMC AGADIR</h1>
 
       <p>
-        <Link to="/details" className="details-link">
-          Plus de détails
+        <Link to="/details" className="more-details-link">
+         Plus de détails &rarr;
         </Link>
       </p>
 

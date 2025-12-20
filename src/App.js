@@ -8,6 +8,7 @@ import Soukaina from "./components/soukaina";
 import Safouane from "./components/safouane";
 import Sina from "./components/sina";
 import Ailal from "./components/Ailal";
+import Soufyane from "./components/soufyane";
 
 function App() {
   return (
@@ -19,9 +20,10 @@ function App() {
         <Route path="/stagiaires/ajermoune" element={<Asma />} />
         <Route path="/stagiaires/abbou" element={<Meriem />} />
         <Route path="/stagiaires/Menguit" element={<Soukaina />} />
+        <Route path="/stagiaires/rady" element={<Safouane />} />
+        <Route path="/stagiaires/Aidane" element={<Soufyane />} />
         <Route path="/stagiaires/bouhssine" element={<Hajar />} />
         <Route path="/stagiaires/sina" element={<Sina />} />
-        <Route path="/stagiaires/rady" element={<Safouane />} />
         <Route path="/stagiaires/ailal" element={<Ailal />} />
       </Routes>
     </BrowserRouter>

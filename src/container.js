@@ -3,6 +3,8 @@ import { Link } from "react-router-dom";
 const users = [
   { id: "ajermoune", nom: "Ajermoune", prenom: "Asma" },
   { id: "abbou", nom: "Abbou", prenom: "Meriem" },
+  { id: "Aidane", nom: "Aidane", prenom: "Soufyane" },
+  { id: "rady", nom: "Rady", prenom:"Safouane" },
   { id: "Menguit", nom: "Menguit", prenom: "Soukaina" },
   { id: "ailal", nom: "Ailal", prenom: "Youness" },
   { id: "bouhssine", nom: "Bouhssine", prenom: "Hajar" }, 

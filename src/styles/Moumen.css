@@ -1,0 +1,112 @@
+.moumen-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    /* Creative Gradient Background */
+    background: linear-gradient(135deg, #2563eb 0%, #0ea5e9 100%);
+    padding: 20px;
+    font-family: 'Inter', sans-serif;
+}
+
+.moumen-card {
+    background: rgba(255, 255, 255, 0.95);
+    width: 100%;
+    max-width: 400px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    /* Space for the floating avatar */
+    margin-top: 60px;
+    padding-bottom: 30px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.moumen-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.3);
+}
+
+.moumen-header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: -75px;
+    /* Half of avatar height to float */
+}
+
+.moumen-avatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid white;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+    background-color: white;
+}
+
+.moumen-body {
+    margin-top: 90px;
+    /* Space for the bottom half of avatar + padding */
+    width: 100%;
+    padding: 0 30px;
+    text-align: center;
+}
+
+.moumen-name {
+    margin: 0;
+    color: #2d3748;
+    font-size: 1.8rem;
+    font-weight: 800;
+    margin-bottom: 25px;
+}
+
+.moumen-info-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.moumen-info-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+}
+
+.moumen-label {
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #718096;
+    font-weight: 600;
+}
+
+.moumen-value {
+    color: #4a5568;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.moumen-btn-retour {
+    display: inline-block;
+    background: linear-gradient(90deg, #2563eb 0%, #0ea5e9 100%);
+    color: white;
+    padding: 12px 40px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1rem;
+    box-shadow: 0 4px 15px rgba(37, 99, 235, 0.4);
+    transition: all 0.3s ease;
+}
+
+.moumen-btn-retour:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 20px rgba(37, 99, 235, 0.6);
+}

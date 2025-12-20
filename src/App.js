@@ -17,6 +17,7 @@ import Soufyane from "./components/soufyane";
 import Younes from './components/elkaidi';
 import Ahmed from './components/ahmed';
 import Laarif from "./components/laarif";
+import Moumen from "./components/Moumen"
 
  
 
@@ -40,6 +41,7 @@ function App() {
         <Route path="/stagiaires/ailal" element={<Ailal />} />
         <Route path="/stagiaires/laarif" element={<Laarif />} />
          <Route path="/stagiaires/elorf" element={<SaraE />} />
+         <Route path="/stagiaires/moumen" element={<Moumen />} />
 
        
 

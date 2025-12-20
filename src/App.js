@@ -14,6 +14,7 @@ import Ailal from "./components/Ailal";
 import Soufyane from "./components/soufyane";
 import Younes from './components/elkaidi';
 import Ahmed from './components/ahmed';
+import Laarif from "./components/laarif";
 
  
 
@@ -35,6 +36,8 @@ function App() {
         <Route path="/stagiaires/bouhssine" element={<Hajar />} />
         <Route path="/stagiaires/sina" element={<Sina />} />
         <Route path="/stagiaires/ailal" element={<Ailal />} />
+        <Route path="/stagiaires/laarif" element={<Laarif />} />
+
        
 
 

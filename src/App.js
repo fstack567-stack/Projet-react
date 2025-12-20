@@ -8,6 +8,7 @@ import Hajar from './components/hajar';
 import Meriem from './components/meriem';
 import Soukaina from "./components/soukaina";
 import Safouane from "./components/safouane";
+import Sina from "./components/sina";
 
 function App() {
   return (

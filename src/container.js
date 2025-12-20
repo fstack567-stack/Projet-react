@@ -8,15 +8,15 @@ const users = [
   { id: "Menguit", nom: "Menguit", prenom: "Soukaina" },
   { id: "ailal", nom: "Ailal", prenom: "Youness" },
   { id: "bouhssine", nom: "Bouhssine", prenom: "Hajar" },
-  { id: "rady", nom: "Rady", prenom: "Safouane" },
   { id: "elaarabi", nom: "elaarabi", prenom: "rida" },
   { id: "sina", nom: "Sina", prenom: "Youssef" },
   { id: "elkaidi", nom: "Elkaidi", prenom: "Younes" },
   { id: "ahmed", nom: "Nammat", prenom: "Ahmed Amine" },
   { id: "laarif", nom: "Laarif", prenom: "Mohamed" },
-    { id: "elorf", nom: "El Orf", prenom: "Sara" },
-    { id: "moumen", nom: "Moumen", prenom: "Mohamed Amine" },
-    { id: "Idoumghar", nom: "Idoumghar", prenom: "khadija" },
+  { id: "elorf", nom: "El Orf", prenom: "Sara" },
+  { id: "moumen", nom: "Moumen", prenom: "Mohamed Amine" },
+  { id: "Idoumghar", nom: "Idoumghar", prenom: "khadija" },
+  { id: "salma", nom: "Salma", prenom: "Zoukrati" },
 ];
 
 export default function Container() {

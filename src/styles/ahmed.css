@@ -38,7 +38,7 @@ img:hover {
 }
 
 p:hover {
-    text-decoration: underline;
+    /* text-decoration: underline; */
 }
 
 p {

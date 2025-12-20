@@ -19,7 +19,7 @@ import Ahmed from './components/ahmed';
 import Laarif from "./components/laarif";
 import Moumen from "./components/Moumen"
 import Khadija from "./components/khadija";
-
+import Salma from "./components/salma";
  
 
 function App() {
@@ -45,6 +45,7 @@ function App() {
          <Route path="/stagiaires/moumen" element={<Moumen />} />
 
         <Route path="/stagiaires/Idoumghar" element={<Khadija/>} />
+        <Route path="/stagiaires/salma" element={<Salma/>} />
        
 
 

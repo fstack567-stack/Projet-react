@@ -6,6 +6,7 @@ import Details from "./details";
 import Asma from "./components/asma";
 import Meriem from "./components/meriem";
 import Soukaina from "./components/soukaina";
+import Safouane from "./components/safouane";
 import Soufyane from "./components/soufyane";
 
 

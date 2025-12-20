@@ -19,6 +19,9 @@ function App() {
         <Route path="/stagiaires/ajermoune" element={<Asma />} />
         <Route path="/stagiaires/abbou" element={<Meriem />} />
         <Route path="/stagiaires/Menguit" element={<Soukaina />} />
+
+        <Route path="/stagiaires/bouhssine" element={<Hajar />} />
+        <Route path="/stagiaires/sina" element={<Sina />} />
         <Route path="/stagiaires/bouhssine" element={<Hajar />} />
         <Route path="/stagiaires/rady" element={<Safouane />} />
       </Routes>

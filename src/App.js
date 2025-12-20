@@ -9,7 +9,7 @@ import Safouane from "./components/safouane";
 import Sina from "./components/sina";
 import Ailal from "./components/Ailal";
 import Soufyane from "./components/soufyane";
-
+import Salma from "./components/salma";
 function App() {
   return (
     <BrowserRouter>
@@ -25,6 +25,7 @@ function App() {
         <Route path="/stagiaires/bouhssine" element={<Hajar />} />
         <Route path="/stagiaires/sina" element={<Sina />} />
         <Route path="/stagiaires/ailal" element={<Ailal />} />
+        <Route path="/stagiaires/salma" element={<Salma />} />
       </Routes>
     </BrowserRouter>
   );

@@ -1,0 +1,55 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  min-height: 100vh;
+  background: linear-gradient(to bottom right, #fde2f3, #e9d5ff); 
+  font-family: 'Poppins', Arial, sans-serif;
+}
+
+.profile-img {
+  width: 160px; 
+  height: 160px;
+  border-radius: 10%;
+  object-fit: cover;
+  border: 5px solid #ffffff;
+  box-shadow: 0 10px 25px rgba(236, 72, 153, 0.4); 
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.profile-img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 15px 40px rgba(236, 72, 153, 0.6);
+}
+
+.card {
+  background-color: #ffffff;
+  padding: 25px 35px;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(236, 72, 153, 0.2); 
+  line-height: 1.8;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 40px rgba(236, 72, 153, 0.35);
+}
+
+.btn-retour {
+  display: inline-block;
+  margin-top: 15px;
+  text-decoration: none;
+  color: white;
+  background: linear-gradient(to right, #ec4899, #a855f7); 
+  padding: 10px 20px;
+  border-radius: 15px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.btn-retour:hover {
+  background: linear-gradient(to right, #f43f5e, #c084fc); 
+  transform: scale(1.05);
+}

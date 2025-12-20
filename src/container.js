@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 
 const users = [
   { id: 1, nom: "Ajermoune", prenom: "Asma" },
+  { id: 'hajar', nom: "Bouhssine", prenom: "Hajar" },
 ];
 
 export default function Container() {

@@ -9,12 +9,16 @@ import Safouane from "./components/safouane";
  
 import Rida from "./components/rida";
 
+import SaraE from "./components/sara";
+
 import Sina from "./components/sina";
 import Ailal from "./components/Ailal";
 import Soufyane from "./components/soufyane";
 import Younes from './components/elkaidi';
+import Ahmed from './components/ahmed';
+import Laarif from "./components/laarif";
+import Khadija from "./components/khadija";
 import Salma from "./components/salma";
-
  
 
 function App() {
@@ -35,13 +39,16 @@ function App() {
         <Route path="/stagiaires/bouhssine" element={<Hajar />} />
         <Route path="/stagiaires/sina" element={<Sina />} />
         <Route path="/stagiaires/ailal" element={<Ailal />} />
+        <Route path="/stagiaires/laarif" element={<Laarif />} />
+         <Route path="/stagiaires/elorf" element={<SaraE />} />
+        <Route path="/stagiaires/Idoumghar" element={<Khadija/>} />
        
 
 
         <Route path='/stagiaires/elkaidi' element={<Younes/>} />
-        <Route path="/stagiaires/salma" element={<Salma />} />
+        <Route path='/stagiaires/ahmed' element={<Ahmed/>} />
 
- 
+        <Route path="/stagiaires/salma" element={<Salma/>}  />
       </Routes>
     </BrowserRouter>
   );

@@ -12,7 +12,7 @@ export default function Safouane() {
 
         <div className="info">
           <p>
-            <span>Email</span> safouanekira2001@example.com
+            <span>Email</span> safouanekira2001@gmail.com
           </p>
           <p>
             <span>Birthday</span> 14/05/2001

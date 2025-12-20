@@ -3,10 +3,18 @@ import { Link } from "react-router-dom";
 const users = [
   { id: "ajermoune", nom: "Ajermoune", prenom: "Asma" },
   { id: "abbou", nom: "Abbou", prenom: "Meriem" },
+  { id: "Aidane", nom: "Aidane", prenom: "Soufyane" },
+  { id: "rady", nom: "Rady", prenom: "Safouane" },
   { id: "Menguit", nom: "Menguit", prenom: "Soukaina" },
+  { id: "ailal", nom: "Ailal", prenom: "Youness" },
   { id: "bouhssine", nom: "Bouhssine", prenom: "Hajar" },
+<<<<<<< HEAD
   { id: "rady", nom: "Rady", prenom: "Safouane" },
   { id: "elaarabi", nom: "elaarabi", prenom: "rida" },
+=======
+  { id: "sina", nom: "Sina", prenom: "Youssef" },
+  { id: "elkaidi", nom: "Elkaidi", prenom: "Younes" },
+>>>>>>> e2405154417321913dedaf8133198693f4a34ab2
 ];
 
 export default function Container() {
@@ -15,8 +23,8 @@ export default function Container() {
       <h1 className="title">CMC AGADIR</h1>
 
       <p>
-        <Link to="/details" className="details-link">
-          Plus de détails
+        <Link to="/details" className="more-details-link">
+          Plus de détails &rarr;
         </Link>
       </p>
 
@@ -37,7 +45,10 @@ export default function Container() {
               <td>{elem.nom}</td>
               <td>{elem.prenom}</td>
               <td>
-                <Link to={`/stagiaires/${elem.id}`} className="info-link"> Voir </Link>
+                <Link to={`/stagiaires/${elem.id}`} className="info-link">
+                  {" "}
+                  Voir{" "}
+                </Link>
               </td>
             </tr>
           ))}

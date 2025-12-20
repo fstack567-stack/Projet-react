@@ -1,4 +1,4 @@
-.containerhj {
+.containersz {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -9,7 +9,7 @@
   font-family: 'Arial', sans-serif;
 }
 
-.profile-imghj {
+.profile-imgsz {
   width: 180px;
   height: 180px;
   border-radius: 10%;
@@ -20,12 +20,12 @@
   margin-bottom: 2rem;
 }
 
-.profile-imghj:hover {
+.profile-imgsz:hover {
   transform: scale(1.05);
   box-shadow: 0 15px 40px rgba(236, 72, 153, 0.6);
 }
 
-.cardhj {
+.cardsz {
   background-color: #ffffff;
   padding: 2rem 2.5rem;
   border-radius: 2rem;
@@ -39,20 +39,20 @@
   transition: transform 0.3s ease;
 }
 
-.cardhj:hover {
+.cardsz:hover {
   transform: translateY(-5px);
 }
 
-.cardhj p {
+.cardsz p {
   font-size: 1rem;
   color: #701a75;
 }
 
-.cardhj p b {
+.cardsz p b {
   color: #ec4899;
 }
 
-.btn-retourhj {
+.btn-retoursz {
   display: inline-block;
   margin-top: 1.5rem;
   padding: 10px 20px;
@@ -65,7 +65,7 @@
   transition: all 0.3s ease;
 }
 
-.btn-retourhj:hover {
+.btn-retoursz:hover {
   background: linear-gradient(135deg, #f43f5e, #c084fc);
   transform: scale(1.05);
   box-shadow: 0 8px 20px rgba(236, 72, 153, 0.4);

@@ -1,4 +1,4 @@
-.container {
+.container-asma {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -8,7 +8,7 @@
   font-family: Arial, sans-serif;
 }
 
-.profile-img {
+.profile-asma {
   width: 130px;
   height: 130px;
   border-radius: 50%;
@@ -16,7 +16,7 @@
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
-.card {
+.card-asma {
   background-color: #ffffff;
   padding: 20px 30px;
   border-radius: 10px;
@@ -24,7 +24,7 @@
   line-height: 1.8;
 }
 
-.btn-retour {
+.btn-retour-a {
   display: inline-block;
   margin-top: 10px;
   text-decoration: none;
@@ -34,6 +34,6 @@
   border-radius: 5px;
 }
 
-.btn-retour:hover {
+.btn-retour-a:hover {
   background-color: #0056b3;
 }

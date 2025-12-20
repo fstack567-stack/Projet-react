@@ -1,22 +1,12 @@
-* {
-  box-sizing: border-box;
-}
-
-body {
-  margin: 0;
+.page {
   font-family: "Segoe UI", Tahoma, sans-serif;
   background: linear-gradient(135deg, #667eea, #764ba2);
-}
-
-/* page center */
-.page {
   min-height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-/* card */
 .card {
   background: #ffffff;
   width: 360px;
@@ -27,7 +17,6 @@ body {
   animation: fadeIn 0.8s ease-in-out;
 }
 
-/* profile image */
 .profile-img {
   width: 140px;
   height: 140px;
@@ -37,7 +26,6 @@ body {
   margin-bottom: 15px;
 }
 
-/* text */
 h1 {
   margin: 10px 0 5px;
   font-size: 24px;
@@ -50,7 +38,6 @@ h2 {
   font-weight: normal;
 }
 
-/* info section */
 .info {
   text-align: left;
   margin-bottom: 20px;
@@ -70,9 +57,9 @@ h2 {
 }
 
 .btn-retour {
-  display: block;          /* change from inline-block */
+  display: block;
   width: fit-content;
-  margin: 10px auto;       /* auto centers it */
+  margin: 10px auto;
   text-decoration: none;
   color: white;
   background-color: #007bff;
@@ -84,8 +71,6 @@ h2 {
   background-color: #0056b3;
 }
 
-
-/* animation */
 @keyframes fadeIn {
   from {
     opacity: 0;

@@ -4,13 +4,11 @@ const users = [
   { id: "ajermoune", nom: "Ajermoune", prenom: "Asma" },
   { id: "abbou", nom: "Abbou", prenom: "Meriem" },
   { id: "Aidane", nom: "Aidane", prenom: "Soufyane" },
-  { id: "rady", nom: "Rady", prenom:"Safouane" },
+  { id: "rady", nom: "Rady", prenom: "Safouane" },
   { id: "Menguit", nom: "Menguit", prenom: "Soukaina" },
   { id: "ailal", nom: "Ailal", prenom: "Youness" },
-  { id: "bouhssine", nom: "Bouhssine", prenom: "Hajar" }, 
-  { id: "sina", nom: "Sina", prenom: "Youssef" }, 
-  { id: "rady", nom: "Rady", prenom: "Safouane" },
   { id: "bouhssine", nom: "Bouhssine", prenom: "Hajar" },
+  { id: "sina", nom: "Sina", prenom: "Youssef" },
   { id: "elkaidi", nom: "Elkaidi", prenom: "Younes" },
 ];
 
@@ -21,7 +19,7 @@ export default function Container() {
 
       <p>
         <Link to="/details" className="more-details-link">
-         Plus de détails &rarr;
+          Plus de détails &rarr;
         </Link>
       </p>
 
@@ -42,7 +40,10 @@ export default function Container() {
               <td>{elem.nom}</td>
               <td>{elem.prenom}</td>
               <td>
-                <Link to={`/stagiaires/${elem.id}`} className="info-link"> Voir </Link>
+                <Link to={`/stagiaires/${elem.id}`} className="info-link">
+                  {" "}
+                  Voir{" "}
+                </Link>
               </td>
             </tr>
           ))}

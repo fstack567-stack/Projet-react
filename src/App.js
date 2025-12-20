@@ -13,7 +13,7 @@ import Sina from "./components/sina";
 import Ailal from "./components/Ailal";
 import Soufyane from "./components/soufyane";
 import Younes from './components/elkaidi';
-import Salma from "./components/salma";
+import Ahmed from './components/ahmed';
 
  
 
@@ -39,7 +39,8 @@ function App() {
 
 
         <Route path='/stagiaires/elkaidi' element={<Younes/>} />
-        <Route path="/stagiaires/salma" element={<Salma />} />
+        <Route path='/stagiaires/ahmed' element={<Ahmed/>} />
+
 
  
       </Routes>

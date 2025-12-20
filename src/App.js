@@ -18,6 +18,7 @@ import Younes from './components/elkaidi';
 import Ahmed from './components/ahmed';
 import Laarif from "./components/laarif";
 import Moumen from "./components/Moumen"
+import Khadija from "./components/khadija";
 
  
 
@@ -43,6 +44,7 @@ function App() {
          <Route path="/stagiaires/elorf" element={<SaraE />} />
          <Route path="/stagiaires/moumen" element={<Moumen />} />
 
+        <Route path="/stagiaires/Idoumghar" element={<Khadija/>} />
        
 
 

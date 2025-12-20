@@ -5,7 +5,6 @@ import { BrowserRouter,Routes,Route } from 'react-router-dom';
 import Container from './container';
 import Details from './details';
 import Asma from './components/asma';
-
 import Meriem from './components/meriem';
 import Soukaina from "./components/soukaina";
 

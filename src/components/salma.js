@@ -4,7 +4,7 @@ import "../styles/salma.css";
 export default function Salma() {
   return (
     <div className="containerhj">
-      <img src="/images/salma.jpg" alt="Salma" className="profile-imghj" />
+      <img src="/images/salma.jpeg" alt="Salma" className="profile-imghj" />
 
       <div className="cardhj">
         <p><b>Nom :</b> Zoukrati </p>

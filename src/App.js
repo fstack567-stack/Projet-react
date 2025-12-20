@@ -28,12 +28,11 @@ function App() {
         <Route path="/stagiaires/bouhssine" element={<Hajar />} />
         <Route path="/stagiaires/sina" element={<Sina />} />
         <Route path="/stagiaires/ailal" element={<Ailal />} />
-        <Route path="/stagiaires/salma" element={<Salma />} />
+       
 
 
         <Route path='/stagiaires/elkaidi' element={<Younes/>} />
-
-
+        <Route path="/stagiaires/salma" element={<Salma />} />
 
       </Routes>
     </BrowserRouter>

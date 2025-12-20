@@ -5,7 +5,7 @@ export default function Soukaina() {
   return (
     <div className="container_sk">
       <img
-        src="/images/soukaina_mgt.jpeg"
+        src="/images/soukaina.jpeg"
         alt="Soukaina_Mgt"
         className="img-soukaina"
       />

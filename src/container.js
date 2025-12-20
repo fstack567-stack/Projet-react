@@ -6,10 +6,15 @@ const users = [
   { id: "Aidane", nom: "Aidane", prenom: "Soufyane" },
   { id: "rady", nom: "Rady", prenom:"Safouane" },
   { id: "Menguit", nom: "Menguit", prenom: "Soukaina" },
+<<<<<<< HEAD
   { id: "ailal", nom: "Ailal", prenom: "Youness" },
   { id: "bouhssine", nom: "Bouhssine", prenom: "Hajar" }, 
   { id: "sina", nom: "Sina", prenom: "Youssef" }, 
   { id: "rady", nom: "Rady", prenom: "Safouane" },
+=======
+  { id: "bouhssine", nom: "Bouhssine", prenom: "Hajar" },
+  { id: "elkaidi", nom: "Elkaidi", prenom: "Younes" },
+>>>>>>> feature-add-component
 ];
 
 export default function Container() {

@@ -30,7 +30,6 @@ function App() {
         <Route path="/stagiaires/ailal" element={<Ailal />} />
 
 
-        <Route path='/stagiaires/bouhssine' element={<Hajar/>} />
         <Route path='/stagiaires/elkaidi' element={<Younes/>} />
 
 

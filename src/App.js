@@ -7,6 +7,7 @@ import Details from './details';
 import Asma from './components/asma';
 import Meriem from './components/meriem';
 import Soukaina from "./components/soukaina";
+import Safouane from "./components/safouane";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path='/stagiaires/ajermoune' element={<Asma/>} />
         <Route path='/stagiaires/abbou' element={<Meriem/>} />
         <Route path="/stagiaires/Menguit" element={<Soukaina />} />
+        <Route path='/stagiaires/rady' element={<Safouane />}/>
       </Routes>
     </BrowserRouter>
   );

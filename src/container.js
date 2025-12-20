@@ -6,6 +6,8 @@ const users = [
   { id: "Menguit", nom: "Menguit", prenom: "Soukaina" },
   { id: "bouhssine", nom: "Bouhssine", prenom: "Hajar" }, 
   { id: "sina", nom: "Sina", prenom: "Youssef" }, 
+  { id: "bouhssine", nom: "Bouhssine", prenom: "Hajar" },
+  { id: "rady", nom: "Rady", prenom: "Safouane" }
 ];
 
 export default function Container() {

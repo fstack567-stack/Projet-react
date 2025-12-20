@@ -10,7 +10,7 @@ import Sina from "./components/sina";
 import Ailal from "./components/Ailal";
 import Soufyane from "./components/soufyane";
 import Younes from './components/elkaidi';
-
+import Salma from "./components/salma";
 
 
 function App() {
@@ -28,6 +28,7 @@ function App() {
         <Route path="/stagiaires/bouhssine" element={<Hajar />} />
         <Route path="/stagiaires/sina" element={<Sina />} />
         <Route path="/stagiaires/ailal" element={<Ailal />} />
+        <Route path="/stagiaires/salma" element={<Salma />} />
 
 
         <Route path='/stagiaires/elkaidi' element={<Younes/>} />

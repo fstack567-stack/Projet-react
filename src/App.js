@@ -8,6 +8,7 @@ import Hajar from './components/hajar';
 import Meriem from './components/meriem';
 import Soukaina from "./components/soukaina";
 import Safouane from "./components/safouane";
+import Rida from "./components/rida";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Route path="/stagiaires/Menguit" element={<Soukaina />} />
         <Route path="/stagiaires/bouhssine" element={<Hajar />} />
         <Route path="/stagiaires/rady" element={<Safouane />} />
+        <Route path="/stagiaires/elaarabi" element={<Rida />} />
       </Routes>
     </BrowserRouter>
   );

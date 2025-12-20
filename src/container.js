@@ -1,9 +1,8 @@
 import { Link } from "react-router-dom";
 
-
 const users = [
   { id: 1, nom: "Ajermoune", prenom: "Asma" },
-  { id: 2, nom: "Menguit", prenom: "Soukaina" },
+  { id: "Menguit", nom: "Menguit", prenom: "Soukaina" },
 ];
 
 export default function Container() {
@@ -34,10 +33,7 @@ export default function Container() {
               <td>{elem.nom}</td>
               <td>{elem.prenom}</td>
               <td>
-                <Link
-                  to={`/stagiaires/${elem.id}`}
-                  className="info-link"
-                >
+                <Link to={`/stagiaires/${elem.id}`} className="info-link">
                   Voir
                 </Link>
               </td>

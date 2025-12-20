@@ -11,3 +11,106 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.container-page {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.title {
+  text-align: center;
+  color: #1e293b;
+}
+
+.subtitle {
+  margin-top: 30px;
+  margin-bottom: 15px;
+  color: #334155;
+}
+
+.details-link {
+  text-decoration: none;
+  color: #2563eb;
+  font-weight: bold;
+}
+
+.details-link:hover {
+  text-decoration: underline;
+}
+
+.stagiaires-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.stagiaires-table th,
+.stagiaires-table td {
+  border: 1px solid #cbd5e1;
+  padding: 10px;
+  text-align: center;
+}
+
+.stagiaires-table th {
+  background-color: #f1f5f9;
+}
+
+.stagiaires-table tr:nth-child(even) {
+  background-color: #f8fafc;
+}
+
+.info-link {
+  text-decoration: none;
+  background-color: #0ea5e9;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.info-link:hover {
+  background-color: #0284c7;
+}
+
+.details-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  min-height: 100vh;
+  background-color: #f5f7fa;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.details-logo {
+  height: 150px;
+}
+
+.details-card {
+  background-color: white;
+  padding: 25px 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  line-height: 1.7;
+}
+
+.details-card p {
+  margin-bottom: 10px;
+}
+
+.btn-retour {
+  display: inline-block;
+  margin-top: 15px;
+  text-decoration: none;
+  background-color: #2563eb;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 5px;
+}
+
+.btn-retour:hover {
+  background-color: #1e40af;
+}
+

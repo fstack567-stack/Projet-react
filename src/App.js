@@ -9,6 +9,8 @@ import Safouane from "./components/safouane";
  
 import Rida from "./components/rida";
 
+import SaraE from "./components/sara";
+
 import Sina from "./components/sina";
 import Ailal from "./components/Ailal";
 import Soufyane from "./components/soufyane";
@@ -37,6 +39,7 @@ function App() {
         <Route path="/stagiaires/sina" element={<Sina />} />
         <Route path="/stagiaires/ailal" element={<Ailal />} />
         <Route path="/stagiaires/laarif" element={<Laarif />} />
+         <Route path="/stagiaires/elorf" element={<SaraE />} />
 
        
 

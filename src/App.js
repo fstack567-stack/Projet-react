@@ -3,6 +3,8 @@ import './App.css';
 import { BrowserRouter,Routes,Route } from 'react-router-dom';
 import Container from './container';
 import Details from './details';
+import Asma from './components/asma';
+import Meriem from './components/meriem';
 
 function App() {
   return (
@@ -10,7 +12,8 @@ function App() {
       <Routes>
         <Route path='/' element={<Container/>}/>
         <Route path='/details'  element={<Details/>}/>
-        
+        <Route path='/stagiaires/ajermoune' element={<Asma/>} />
+        <Route path='/stagiaires/abbou' element={<Meriem/>} />
       </Routes>
     </BrowserRouter>
   );

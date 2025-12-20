@@ -9,7 +9,8 @@ import Safouane from "./components/safouane";
 import Sina from "./components/sina";
 import Ailal from "./components/Ailal";
 import Soufyane from "./components/soufyane";
-import Younes from './components/younes';
+import Younes from './components/elkaidi';
+import Ahmed from './components/ahmed';
 
 
 
@@ -32,6 +33,7 @@ function App() {
 
         <Route path='/stagiaires/bouhssine' element={<Hajar/>} />
         <Route path='/stagiaires/elkaidi' element={<Younes/>} />
+        <Route path='/stagiaires/ahmed' element={<Ahmed/>} />
 
 
 

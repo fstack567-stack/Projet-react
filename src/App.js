@@ -11,6 +11,9 @@ import Hajar from './components/hajar';
 import Meriem from './components/meriem';
 
 import Soukaina from "./components/soukaina";
+import Younes from './components/younes';
+
+
 
 function App() {
   return (
@@ -25,6 +28,9 @@ function App() {
 
 
         <Route path='/stagiaires/bouhssine' element={<Hajar/>} />
+        <Route path='/stagiaires/elkaidi' element={<Younes/>} />
+
+
 
       </Routes>
     </BrowserRouter>

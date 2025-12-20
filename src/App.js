@@ -7,6 +7,7 @@ import Meriem from "./components/meriem";
 import Soukaina from "./components/soukaina";
 import Safouane from "./components/safouane";
 import Sina from "./components/sina";
+import Ailal from "./components/Ailal";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
         <Route path="/stagiaires/sina" element={<Sina />} />
         <Route path="/stagiaires/bouhssine" element={<Hajar />} />
         <Route path="/stagiaires/rady" element={<Safouane />} />
+        <Route path="/stagiaires/ailal" element={<Ailal />} />
       </Routes>
     </BrowserRouter>
   );

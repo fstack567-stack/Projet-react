@@ -45,15 +45,14 @@ function App() {
          <Route path="/stagiaires/moumen" element={<Moumen />} />
 
         <Route path="/stagiaires/Idoumghar" element={<Khadija/>} />
-        <Route path="/stagiaires/salma" element={<Salma/>} />
+        <Route path="/stagiaires/Zoukrati" element={<Salma/>} />
        
 
 
         <Route path='/stagiaires/elkaidi' element={<Younes/>} />
         <Route path='/stagiaires/ahmed' element={<Ahmed/>} />
 
-
- 
+        <Route path="/stagiaires/salma" element={<Salma/>}  />
       </Routes>
     </BrowserRouter>
   );

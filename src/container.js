@@ -8,13 +8,10 @@ const users = [
   { id: "Menguit", nom: "Menguit", prenom: "Soukaina" },
   { id: "ailal", nom: "Ailal", prenom: "Youness" },
   { id: "bouhssine", nom: "Bouhssine", prenom: "Hajar" },
-<<<<<<< HEAD
   { id: "rady", nom: "Rady", prenom: "Safouane" },
   { id: "elaarabi", nom: "elaarabi", prenom: "rida" },
-=======
-  { id: "sina", nom: "Sina", prenom: "Youssef" },
-  { id: "elkaidi", nom: "Elkaidi", prenom: "Younes" },
->>>>>>> e2405154417321913dedaf8133198693f4a34ab2
+  { id: "Zoukrati", nom: "Zoukrati", prenom: "Salma" },
+
 ];
 
 export default function Container() {

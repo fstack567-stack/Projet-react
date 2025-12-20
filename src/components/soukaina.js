@@ -1,16 +1,16 @@
 import { Link } from "react-router-dom";
-import "../styles/asma.css";
+import "../styles/soukaina.css";
 
 export default function Soukaina() {
   return (
-    <div className="container">
+    <div className="container_sk">
       <img
-        src="/images/soukaina_mgt.jpeg"
+        src="/images/soukaina.jpeg"
         alt="Soukaina_Mgt"
-        className="profile-img"
+        className="img-soukaina"
       />
 
-      <div className="card">
+      <div className="card-soukaina">
         <p>
           <b>Nom :</b> Menguit
         </p>
@@ -27,7 +27,7 @@ export default function Soukaina() {
           <b>Adresse :</b> Agadir, Maroc
         </p>
 
-        <Link to="/" className="btn-retour">
+        <Link to="/" className="btn-retour-sk">
           Retour
         </Link>
       </div>

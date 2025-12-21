@@ -8,13 +8,11 @@ const users = [
   { id: "Menguit", nom: "Menguit", prenom: "Soukaina" },
   { id: "ailal", nom: "Ailal", prenom: "Youness" },
   { id: "bouhssine", nom: "Bouhssine", prenom: "Hajar" },
-<<<<<<< HEAD
   { id: "sina", nom: "Sina", prenom: "Youssef" },
   { id: "rady", nom: "Rady", prenom: "Safouane" },
   { id: "bouhssine", nom: "Bouhssine", prenom: "Hajar" },
   { id: "elkaidi", nom: "Elkaidi", prenom: "Younes" },
   { id: "kazzi", nom: "kazzi", prenom: "oussama" },
-=======
   { id: "elaarabi", nom: "elaarabi", prenom: "rida" },
   { id: "sina", nom: "Sina", prenom: "Youssef" },
   { id: "elkaidi", nom: "Elkaidi", prenom: "Younes" },
@@ -24,8 +22,9 @@ const users = [
   { id: "moumen", nom: "Moumen", prenom: "Mohamed Amine" },
   { id: "Idoumghar", nom: "Idoumghar", prenom: "khadija" },
   { id: "Zoukrati", nom: "Zoukrati", prenom: "Salma" },
+  { id: "alanbar", nom: "Alanbar", prenom: "Mounia" },
 
->>>>>>> 17c99c07f7f257fa15378e7b403bfb1316574b3d
+
 ];
 
 export default function Container() {

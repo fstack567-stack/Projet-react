@@ -1,0 +1,181 @@
+
+.container-alanbar {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(#0A0908, #22333B, #EAE0D5);
+  font-family :'Brush Script MT' , cursive;
+}
+
+
+.profile-card-alanbar {
+  display: flex;
+  align-items: center;
+  gap: 35px;
+  background: linear-gradient(#22333B, #EAE0D5, #5E503F);
+  backdrop-filter: blur(12px);
+  padding: 30px 40px;
+  border-radius: 20px;
+  box-shadow: 0 20px 45px rgba(0, 0, 0, 0.25);
+  animation: fadeInUp 0.8s ease;
+}
+
+.image-wrapper-alanbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.profile-alanbar {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+
+  border: 4px solid rgba(255, 255, 255, 0.35);
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(6px);
+
+  box-shadow:
+    0 0 0 4px rgba(255, 255, 255, 0.15),
+    0 15px 35px rgba(0, 0, 0, 0.35);
+
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+  animation: borderGlow 4s linear infinite;
+}
+
+.profile-alanbar:hover {
+  transform: scale(1.1) rotate(2deg);
+}
+
+
+.card-alanbar {
+  color: #5E503F;
+  line-height: 1.8;
+}
+
+
+.name-alanbar {
+  font-size: 26px;
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: #22333B;
+}
+
+
+.subtitle-alanbar {
+  font-size: 14px;
+  color: #22333B;
+  margin-bottom: 15px;
+}
+
+.info-alanbar p {
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 6px 0;
+}
+
+
+.info-icon {
+  width: 18px;
+  height: 18px;
+  object-fit: contain;
+  flex-shrink: 0;
+  animation: iconFloat 2.5s ease-in-out infinite;
+}
+
+
+.info-alanbar p:nth-child(1) .info-icon {
+  animation-delay: 0s;
+}
+.info-alanbar p:nth-child(2) .info-icon {
+  animation-delay: 0.3s;
+}
+.info-alanbar p:nth-child(3) .info-icon {
+  animation-delay: 0.6s;
+}
+
+
+.btn-retour-md {
+  display: inline-block;
+  margin-top: 18px;
+  text-decoration: none;
+  color: #EAE0D5;
+  background: rgba(94, 80, 63, 1);
+  padding: 10px 24px;
+  border-radius: 30px;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  transition: all 0.3s ease;
+}
+
+.btn-retour-md:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+  background: linear-gradient(#0A0908, #22333B, #EAE0D5);
+}
+
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(25px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes iconFloat {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-4px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes borderGlow {
+  0% {
+    box-shadow:
+      0 0 0 4px rgba(255, 255, 255, 0.15),
+      0 15px 35px rgba(0, 0, 0, 0.35);
+  }
+  50% {
+    box-shadow:
+      0 0 0 6px rgba(255, 255, 255, 0.35),
+      0 20px 45px rgba(0, 0, 0, 0.45);
+  }
+  100% {
+    box-shadow:
+      0 0 0 4px rgba(255, 255, 255, 0.15),
+      0 15px 35px rgba(0, 0, 0, 0.35);
+  }
+}
+
+
+@media (max-width: 768px) {
+  .profile-card-alanbar {
+    flex-direction: column;
+    text-align: center;
+    padding: 25px;
+  }
+
+  .profile-alanbar {
+    width: 130px;
+    height: 130px;
+  }
+
+  .info-alanbar p {
+    justify-content: center;
+  }
+}

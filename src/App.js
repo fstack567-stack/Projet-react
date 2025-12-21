@@ -23,6 +23,8 @@ import Salma from "./components/salma";
 
 import Oussama from "./components/Oussama";
 
+import Alanbar from "./components/alanbar" ;
+
 function App() {
   return (
     <BrowserRouter>
@@ -55,6 +57,7 @@ function App() {
         <Route path="/stagiaires/bouhssine" element={<Hajar />} />
         <Route path="/stagiaires/elkaidi" element={<Younes />} />
         <Route path="/stagiaires/kazzi" element={<Oussama />} />
+        <Route path="/stagiaires/alanbar" element={<Alanbar/>} />
       </Routes>
     </BrowserRouter>
   );

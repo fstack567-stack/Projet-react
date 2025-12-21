@@ -23,6 +23,7 @@ const users = [
   { id: "Idoumghar", nom: "Idoumghar", prenom: "khadija" },
   { id: "Zoukrati", nom: "Zoukrati", prenom: "Salma" },
   { id: "alanbar", nom: "Alanbar", prenom: "Mounia" },
+  {id: "belahmam", nom:"Belahmam", prenom:"Rachida"}
 
 
 ];

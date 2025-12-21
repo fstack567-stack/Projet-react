@@ -29,7 +29,7 @@
 
 img {
     transition: 500ms;
-    opacity: 0.8;
+    /* opacity: 0.8; */
 }
 
 img:hover {

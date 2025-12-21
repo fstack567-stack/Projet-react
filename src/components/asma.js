@@ -23,7 +23,7 @@ export default function Asma() {
           <b>Adresse :</b> Agadir, Maroc
         </p>
 
-        <Link to="/" className="btn-retour-a">
+        <Link to="/" className="btn-retour-asma">
           Retour
         </Link>
       </div>

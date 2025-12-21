@@ -58,7 +58,7 @@ export default function Container() {
               <td>
                 <Link to={`/stagiaires/${elem.id}`} className="info-link">
                   {" "}
-                  Voir{" "}
+                  Voir Détails{" "}
                 </Link>
               </td>
             </tr>

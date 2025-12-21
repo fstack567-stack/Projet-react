@@ -1,14 +1,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;800&display=swap");
-
 .container {
   min-height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
-
-  background: linear-gradient(135deg, #D1FAE5 0%, #ECFDF5 100%);
-  font-family: "Inter", -apple-system, sans-serif;
   padding: 20px;
+  font-family: "Inter", -apple-system, sans-serif;
+
+  /* Sky Blue Base */
+  background-color: #f0f9ff;
+  /* Dot Pattern Overlay */
+  background-image: radial-gradient(#bae6fd 0.8px, transparent 0.8px);
+  background-size: 24px 24px;
+  background-attachment: fixed;
 }
 
 .card {
@@ -77,8 +81,9 @@
   letter-spacing: -0.03em;
 }
 
+/* Updated to Sky Blue */
 .lastName {
-  color: #059669;
+  color: #0284c7;
 }
 
 .subtitle {
@@ -111,7 +116,7 @@
 }
 
 .row:hover {
-  background-color: #f7fafc;
+  background-color: #f0f9ff; /* Lightest blue on hover */
   transform: translateX(10px);
   cursor: default;
 }
@@ -121,6 +126,9 @@
   text-transform: uppercase;
   color: #a0aec0;
   font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 4px;
   letter-spacing: 0.05em;
 }
 
@@ -175,7 +183,6 @@
 .footer {
   margin-top: 40px;
   opacity: 0;
-
   animation: slideInRight 0.4s ease 0.8s forwards;
 }
 
@@ -184,18 +191,18 @@
   align-items: center;
   gap: 8px;
   text-decoration: none;
-  color: #393c42;
+  color: #0369a1; /* Darker blue text */
   font-size: 0.9rem;
   font-weight: 500;
   padding: 8px 16px;
   border-radius: 8px;
-  background-color: #a6fde3;
+  background-color: #bae6fd; /* Light blue button */
   transition: all 0.3s ease;
 }
 
 .backButton:hover {
-  background-color: #a6fde3;
-  color: #1a202c;
+  background-color: #7dd3fc;
+  color: #0c4a6e;
   transform: translateX(-4px);
 }
 

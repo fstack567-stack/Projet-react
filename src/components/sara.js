@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import "../styles/sara.css";
+
  export default function SaraE() {
   return (
    <div className="profile-card">

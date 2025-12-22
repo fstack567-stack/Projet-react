@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { FiMail, FiMapPin, FiCalendar, FiArrowLeft } from "react-icons/fi"; // Feather icons
-import styles from "../styles/ailal.module.css";
+
 
 const DETAILS = [
   { label: "Email", value: "younessaylal21@gmail.com", icon: <FiMail /> },
@@ -10,46 +10,46 @@ const DETAILS = [
 
 function Ailal() {
   return (
-    <main className={styles.container}>
-      <div className={styles.card}>
-        <div className={styles.imageWrapper}>
+    <main>
+      <div>
+        <div >
           <img
             src="/images/ailal.jpg"
             alt="Youness Ailal"
-            className={styles.avatar}
+            
           />
-          <div className={styles.imageOverlay}></div>
+          <div ></div>
         </div>
 
-        <div className={styles.content}>
+        <div >
           <header>
-            <h1 className={styles.name}>
-              Youness <span className={styles.lastName}>Ailal</span>
+            <h1 >
+              Youness <span >Ailal</span>
             </h1>
-            <p className={styles.subtitle}>Full Stack Developer</p>
+            <p >Full Stack Developer</p>
           </header>
 
-          <dl className={styles.dataList}>
+          <dl >
             {DETAILS.map((item, index) => (
               <div
                 key={item.label}
-                className={styles.row}
+                
                 style={{ animationDelay: `${0.2 + index * 0.15}s` }}>
-                <div className={styles.textWrapper}>
-                  <dt className={styles.label}>
+                <div >
+                  <dt >
                     {" "}
                     {item.icon}
                     {item.label}
                   </dt>
-                  <dd className={styles.value}>{item.value}</dd>
+                  <dd >{item.value}</dd>
                 </div>
               </div>
             ))}
           </dl>
 
-          <footer className={styles.footer}>
-            <Link to="/" className={styles.backButton}>
-              <FiArrowLeft className={styles.arrow} /> Retour
+          <footer >
+            <Link to="/" >
+              <FiArrowLeft  /> Retour
             </Link>
           </footer>
         </div>

@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import "../styles/ahmed.css";
 
 export default function Ahmed() {
   return (

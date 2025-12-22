@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import "../styles/oussama.css";
+
 
 function Oussama() {
   return (

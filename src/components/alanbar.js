@@ -1,9 +1,10 @@
 import { Link } from "react-router-dom";
-import "../styles/alanbar.css";
+import "../styles/style.css";
 
 import calendarIcon from "../assets/icons/calendar.png";
 import emailIcon from "../assets/icons/email.png";
 import locationIcon from "../assets/icons/location.png";
+import cefIcon from "../assets/icons/cef.png"
 
 export default function Alanbar() {
   return (
@@ -38,6 +39,11 @@ export default function Alanbar() {
               <img src={locationIcon} alt="Location" className="info-icon" />
               Agadir, Morocco
             </p>
+            <p>
+              <img src={cefIcon} alt="cef" className="info-icon" />
+              2001042500528
+            </p>
+
           </div>
 
           <Link to="/" className="btn-retour-md">

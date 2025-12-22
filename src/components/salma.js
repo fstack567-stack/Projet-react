@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import "../styles/salma.css";
+
 
 export default function Salma() {
   return (

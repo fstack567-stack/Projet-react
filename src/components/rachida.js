@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import "../styles/rachida.css";
+
 
 export default function Rachida() {
   return (

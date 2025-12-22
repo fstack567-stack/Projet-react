@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import "../styles/soukaina.css";
+
 
 export default function Soukaina() {
   return (

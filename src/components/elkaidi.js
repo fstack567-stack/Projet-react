@@ -1,78 +1,56 @@
 import { Link } from "react-router-dom";
+import "../styles/style.css";
 
+import calendarIcon from "../assets/icons/calendar.png";
+import emailIcon from "../assets/icons/email.png";
+import locationIcon from "../assets/icons/location.png";
+import cefIcon from "../assets/icons/cef.png"
 
-export default function Younes() {
+export default function Elkaidi() {
   return (
-    <div className="younes-container">
-      <div className="younes-background-circles">
-        <div className="younes-circle younes-circle-1"></div>
-        <div className="younes-circle younes-circle-2"></div>
-      </div>
+    <div className="container-alanbar">
+      <div className="profile-card-alanbar">
 
-      <div className="younes-content">
-        <div className="younes-profile-wrapper">
-          <div className="younes-profile-glow"></div>
-          <div className="younes-profile-img-container">
-            <img 
-              src="/images/elkaidi.jpg" 
-              alt="Younes Elkaidi" 
-              className="younes-profile-img"
-            />
-          </div>
+       
+        <div className="image-wrapper-alanbar">
+          <img
+            src="/images/elkaidi.jpg"
+            alt="Elkaidi younes"
+            className="profile-alanbar"
+          />
         </div>
 
-        <div className="younes-card">
-          <div className="younes-header">
-            <h1 className="younes-name">Younes Elkaidi</h1>
-            <p className="younes-title">Développeur Web</p>
+        <div className="card-alanbar">
+          <h2 className="name-alanbar">Elkaidi Younes</h2>
+          <p className="subtitle-alanbar">Web Designer</p>
+
+          <div className="info-alanbar">
+            <p>
+              <img src={calendarIcon} alt="Date" className="info-icon" />
+              05/13/2002
+            </p>
+
+            <p>
+              <img src={emailIcon} alt="Email" className="info-icon" />
+              20021305367@ofppt-edu.ma
+            </p>
+
+            <p>
+              <img src={locationIcon} alt="Location" className="info-icon" />
+              Agadir, Morocco
+            </p>
+            <p>
+              <img src={cefIcon} alt="cef" className="info-icon" />
+              20021305367
+            </p>
+
           </div>
 
-          <div className="younes-info-list">
-            <div className="younes-info-item younes-info-yellow">
-              <div className="younes-icon">
-                <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
-                </svg>
-              </div>
-              <div className="younes-info-content">
-                <p className="younes-label">Date de naissance</p>
-                <p className="younes-value">13 Mai 2002</p>
-              </div>
-            </div>
-
-            <div className="younes-info-item younes-info-dark">
-              <div className="younes-icon">
-                <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
-                </svg>
-              </div>
-              <div className="younes-info-content">
-                <p className="younes-label">Email</p>
-                <p className="younes-value">elkaidiyounes1@gmail.com</p>
-              </div>
-            </div>
-
-            <div className="younes-info-item younes-info-yellow">
-              <div className="younes-icon">
-                <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
-                </svg>
-              </div>
-              <div className="younes-info-content">
-                <p className="younes-label">Adresse</p>
-                <p className="younes-value">Agadir, Maroc</p>
-              </div>
-            </div>
-          </div>
-
-          <Link to="/" className="younes-btn-retour">
-            <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M10 19l-7-7m0 0l7-7m-7 7h18" />
-            </svg>
-            Retour à l'accueil
+          <Link to="/" className="btn-retour-md">
+            Back
           </Link>
         </div>
+
       </div>
     </div>
   );

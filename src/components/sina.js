@@ -1,45 +1,56 @@
 import { Link } from "react-router-dom";
+import "../styles/style.css";
 
+import calendarIcon from "../assets/icons/calendar.png";
+import emailIcon from "../assets/icons/email.png";
+import locationIcon from "../assets/icons/location.png";
+import cefIcon from "../assets/icons/cef.png";
 
 export default function Sina() {
   return (
-    <div className="sina-container">
-      <div className="sina-card">
-        <div className="sina-header">
+    <div className="container-alanbar">
+      <div className="profile-card-alanbar">
+
+       
+        <div className="image-wrapper-alanbar">
           <img
             src="/images/sina.jpeg"
-            alt="Sina Youssef"
-            className="sina-img"
+            alt="Youssef Sina"
+            className="profile-alanbar"
           />
-          <h2 className="sina-name">Youssef Sina</h2>
         </div>
 
-        <div className="sina-info">
-          <div className="sina-info-item">
-            <span className="sina-label">Nom</span>
-            <span className="sina-value">Sina</span>
+        <div className="card-alanbar">
+          <h2 className="name-alanbar">Youssef Sina</h2>
+          <p className="subtitle-alanbar">Web Development Student</p>
+
+          <div className="info-alanbar">
+            <p>
+              <img src={calendarIcon} alt="Date" className="info-icon" />
+              18 / 12 / 2005
+            </p>
+
+            <p>
+              <img src={emailIcon} alt="Email" className="info-icon" />
+              youssefsina9@gmail.com
+            </p>
+
+            <p>
+              <img src={locationIcon} alt="Location" className="info-icon" />
+              Agadir, Morocco
+            </p>
+            <p>
+              <img src={cefIcon} alt="cef" className="info-icon" />
+              2005121800528
+            </p>
+
           </div>
-          <div className="sina-info-item">
-            <span className="sina-label">Prénom</span>
-            <span className="sina-value">Youssef</span>
-          </div>
-          <div className="sina-info-item">
-            <span className="sina-label">Date de naissance</span>
-            <span className="sina-value">18/12/2005</span>
-          </div>
-          <div className="sina-info-item">
-            <span className="sina-label">Email</span>
-            <span className="sina-value">youssefsina9@gmail.com</span>
-          </div>
-          <div className="sina-info-item">
-            <span className="sina-label">Adresse</span>
-            <span className="sina-value">Agadir, Maroc</span>
-          </div>
+
+          <Link to="/" className="btn-retour-md">
+            ⬅ Homepage
+          </Link>
         </div>
 
-        <Link to="/" className="sina-btn">
-          Retour
-        </Link>
       </div>
     </div>
   );

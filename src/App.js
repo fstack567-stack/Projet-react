@@ -40,7 +40,6 @@ function App() {
         <Route path="/stagiaires/elaarabi" element={<Rida />} />
 
         <Route path="/stagiaires/Aidane" element={<Soufyane />} />
-        <Route path="/stagiaires/bouhssine" element={<Hajar />} />
         <Route path="/stagiaires/sina" element={<Sina />} />
         <Route path="/stagiaires/ailal" element={<Ailal />} />
         <Route path="/stagiaires/laarif" element={<Laarif />} />
@@ -51,7 +50,7 @@ function App() {
         <Route path="/stagiaires/Idoumghar" element={<Khadija />} />
         <Route path="/stagiaires/Zoukrati" element={<Salma />} />
 
-        <Route path="/stagiaires/elkaidi" element={<Younes />} />
+     
         <Route path="/stagiaires/ahmed" element={<Ahmed />} />
 
         <Route path="/stagiaires/salma" element={<Salma />} />

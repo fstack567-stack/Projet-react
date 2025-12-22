@@ -1,47 +1,56 @@
 import { Link } from "react-router-dom";
+import "../styles/style.css";
 
+import calendarIcon from "../assets/icons/calendar.png";
+import emailIcon from "../assets/icons/email.png";
+import locationIcon from "../assets/icons/location.png";
+import cefIcon from "../assets/icons/cef.png"
 
 export default function Laarif() {
   return (
-    <div className="laarif-container">
-      <div className="laarif-card">
-        <div className="laarif-header">
-          <div className="laarif-img-wrapper"> {/* Added wrapper for glowing border */}
-            <img
-              src="/images/laarif.jpg"
-              alt="Mohamed Laarif"
-              className="laarif-img"
-            />
-          </div>
-          <h2 className="laarif-name">Mohamed Laarif</h2>
+    <div className="container-alanbar">
+      <div className="profile-card-alanbar">
+
+       
+        <div className="image-wrapper-alanbar">
+          <img
+            src="/images/laarif.jpg"
+            alt="Mohamed Laarif"
+            className="profile-alanbar"
+          />
         </div>
 
-        <div className="laarif-info">
-          <div className="laarif-info-item">
-            <span className="laarif-label">Nom</span>
-            <span className="laarif-value">Laarif</span>
+        <div className="card-alanbar">
+          <h2 className="name-alanbar">Mohamed Laarif</h2>
+          <p className="subtitle-alanbar">Web Development Student</p>
+
+          <div className="info-alanbar">
+            <p>
+              <img src={calendarIcon} alt="Date" className="info-icon" />
+              20 / 05 / 2005
+            </p>
+
+            <p>
+              <img src={emailIcon} alt="Email" className="info-icon" />
+              mohamedlaarif999@gmail.com
+            </p>
+
+            <p>
+              <img src={locationIcon} alt="Location" className="info-icon" />
+              Agadir, Morocco
+            </p>
+            <p>
+              <img src={cefIcon} alt="cef" className="info-icon" />
+              20050520
+            </p>
+
           </div>
-          <div className="laarif-info-item">
-            <span className="laarif-label">Prénom</span>
-            <span className="laarif-value">Mohamed</span>
-          </div>
-          <div className="laarif-info-item">
-            <span className="laarif-label">Date de naissance</span>
-            <span className="laarif-value">20/05/2005</span>
-          </div>
-          <div className="laarif-info-item">
-            <span className="laarif-label">Email</span>
-            <span className="laarif-value">mohamedlaarif@gmail.com</span>
-          </div>
-          <div className="laarif-info-item">
-            <span className="laarif-label">Adresse</span>
-            <span className="laarif-value">Agadir, Maroc</span>
-          </div>
+
+          <Link to="/" className="btn-retour-md">
+            ⬅ Homepage
+          </Link>
         </div>
 
-        <Link to="/" className="laarif-btn">
-          Retour
-        </Link>
       </div>
     </div>
   );

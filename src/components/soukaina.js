@@ -1,35 +1,52 @@
 import { Link } from "react-router-dom";
-import "../styles/soukaina.css";
+import "../styles/style.css";
+
+import calendarIcon from "../assets/icons/calendar.png";
+import emailIcon from "../assets/icons/email.png";
+import locationIcon from "../assets/icons/location.png";
+import cefIcon from "../assets/icons/cef.png";
 
 export default function Soukaina() {
   return (
-    <div className="container_sk">
-      <img
-        src="/images/soukaina.jpeg"
-        alt="Soukaina_Mgt"
-        className="img-soukaina"
-      />
+    <div className="container-alanbar">
+      <div className="profile-card-alanbar">
+        <div className="image-wrapper-alanbar">
+          <img
+            src="/images/soukaina.jpeg"
+            alt="Soukaina Menguit"
+            className="profile-alanbar"
+          />
+        </div>
 
-      <div className="card-soukaina">
-        <p>
-          <b>Nom :</b> Menguit
-        </p>
-        <p>
-          <b>Prénom :</b> Soukaina
-        </p>
-        <p>
-          <b>Date de naissance :</b> 10/11/1998
-        </p>
-        <p>
-          <b>Email :</b> sk.menguit@gmail.com
-        </p>
-        <p>
-          <b>Adresse :</b> Agadir, Maroc
-        </p>
+        <div className="card-alanbar">
+          <h2 className="name-alanbar">Soukaina Menguit</h2>
+          <p className="subtitle-alanbar">Web Development Student</p>
 
-        <Link to="/" className="btn-retour-sk">
-          Retour
-        </Link>
+          <div className="info-alanbar">
+            <p>
+              <img src={calendarIcon} alt="Date" className="info-icon" />
+              10 / 11 / 1998
+            </p>
+
+            <p>
+              <img src={emailIcon} alt="Email" className="info-icon" />
+              1998111000565@ofppt-edu.ma
+            </p>
+
+            <p>
+              <img src={locationIcon} alt="Location" className="info-icon" />
+              Agadir, Morocco
+            </p>
+            <p>
+              <img src={cefIcon} alt="cef" className="info-icon" />
+              1998111000565
+            </p>
+          </div>
+
+          <Link to="/" className="btn-retour-md">
+            ⬅ Retour
+          </Link>
+        </div>
       </div>
     </div>
   );

@@ -1,52 +1,56 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-import '../styles/Moumen.css';
+import { Link } from "react-router-dom";
+import "../styles/style.css";
 
-const user = {
-  nom: 'Moumen',
-  prenom: 'Mohamed Amine',
-  date_naissance: '23/01/2006',
-  email: 'cmcagadir123@gmail.com',
-  adresse: 'Agadir, Maroc',
-  imageUrl: '/images/Moumen.jpg',
-};
+import calendarIcon from "../assets/icons/calendar.png";
+import emailIcon from "../assets/icons/email.png";
+import locationIcon from "../assets/icons/location.png";
+import cefIcon from "../assets/icons/cef.png"
 
-export default function Moumen() {
+export default function Alanbar() {
   return (
-    <div className="moumen-container">
-      <div className="moumen-card">
-        <div className="moumen-header">
+    <div className="container-alanbar">
+      <div className="profile-card-alanbar">
+
+       
+        <div className="image-wrapper-alanbar">
           <img
-            className="moumen-avatar"
-            src={user.imageUrl}
-            alt={`Photo of ${user.nom} ${user.prenom}`}
+            src="/images/Moumen.jpg"
+            alt="Mohamed amine moumen"
+            className="profile-alanbar"
           />
         </div>
 
-        <div className="moumen-body">
-          <h2 className="moumen-name">{user.nom} {user.prenom}</h2>
+        <div className="card-alanbar">
+          <h2 className="name-alanbar">Mohamed Amine Moumen</h2>
+          <p className="subtitle-alanbar">Web Development Student</p>
 
-          <div className="moumen-info-grid">
-            <div className="moumen-info-item">
-              <span className="moumen-label">Date de naissance</span>
-              <span className="moumen-value">{user.date_naissance}</span>
-            </div>
+          <div className="info-alanbar">
+            <p>
+              <img src={calendarIcon} alt="Date" className="info-icon" />
+              23 / 01 / 2006
+            </p>
 
-            <div className="moumen-info-item">
-              <span className="moumen-label">Email</span>
-              <span className="moumen-value">{user.email}</span>
-            </div>
+            <p>
+              <img src={emailIcon} alt="Email" className="info-icon" />
+              2006012300266@ofppt-edu.ma
+            </p>
 
-            <div className="moumen-info-item">
-              <span className="moumen-label">Adresse</span>
-              <span className="moumen-value">{user.adresse}</span>
-            </div>
+            <p>
+              <img src={locationIcon} alt="Location" className="info-icon" />
+              Agadir, Morocco
+            </p>
+            <p>
+              <img src={cefIcon} alt="cef" className="info-icon" />
+              2006012300266
+            </p>
+
           </div>
 
-          <Link to="/" className="moumen-btn-retour">
-            Retour
+          <Link to="/" className="btn-retour-md">
+            ⬅Retour
           </Link>
         </div>
+
       </div>
     </div>
   );

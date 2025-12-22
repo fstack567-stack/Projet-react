@@ -1,61 +1,57 @@
 import { Link } from "react-router-dom";
-import { FiMail, FiMapPin, FiCalendar, FiArrowLeft } from "react-icons/fi"; // Feather icons
-import styles from "../styles/ailal.module.css";
+import "../styles/style.css";
 
-const DETAILS = [
-  { label: "Email", value: "younessaylal21@gmail.com", icon: <FiMail /> },
-  { label: "Addresse", value: "Drarga, Agadir Maroc", icon: <FiMapPin /> },
-  { label: "Date de naissance", value: "03/03/2003", icon: <FiCalendar /> },
-];
+import calendarIcon from "../assets/icons/calendar.png";
+import emailIcon from "../assets/icons/email.png";
+import locationIcon from "../assets/icons/location.png";
+import cefIcon from "../assets/icons/cef.png"
 
-function Ailal() {
+export default function Ailal() {
   return (
-    <main className={styles.container}>
-      <div className={styles.card}>
-        <div className={styles.imageWrapper}>
+    <div className="container-alanbar">
+      <div className="profile-card-alanbar">
+
+       
+        <div className="image-wrapper-alanbar">
           <img
             src="/images/ailal.jpg"
-            alt="Youness Ailal"
-            className={styles.avatar}
+            alt="Mounia Alanbar"
+            className="profile-alanbar"
           />
-          <div className={styles.imageOverlay}></div>
         </div>
 
-        <div className={styles.content}>
-          <header>
-            <h1 className={styles.name}>
-              Youness <span className={styles.lastName}>Ailal</span>
-            </h1>
-            <p className={styles.subtitle}>Full Stack Developer</p>
-          </header>
+        <div className="card-alanbar">
+          <h2 className="name-alanbar">Youness Ailal</h2>
+          <p className="subtitle-alanbar">Full Stack Developer</p>
 
-          <dl className={styles.dataList}>
-            {DETAILS.map((item, index) => (
-              <div
-                key={item.label}
-                className={styles.row}
-                style={{ animationDelay: `${0.2 + index * 0.15}s` }}>
-                <div className={styles.textWrapper}>
-                  <dt className={styles.label}>
-                    {" "}
-                    {item.icon}
-                    {item.label}
-                  </dt>
-                  <dd className={styles.value}>{item.value}</dd>
-                </div>
-              </div>
-            ))}
-          </dl>
+          <div className="info-alanbar">
+            <p>
+              <img src={calendarIcon} alt="Date" className="info-icon" />
+              03 / 03 / 2003
+            </p>
 
-          <footer className={styles.footer}>
-            <Link to="/" className={styles.backButton}>
-              <FiArrowLeft className={styles.arrow} /> Retour
-            </Link>
-          </footer>
+            <p>
+              <img src={emailIcon} alt="Email" className="info-icon" />
+              younessaylal21@gmail.com
+            </p>
+
+            <p>
+              <img src={locationIcon} alt="Location" className="info-icon" />
+              Drarga Agadir, Morocco
+            </p>
+            <p>
+              <img src={cefIcon} alt="cef" className="info-icon" />
+              2003031300438
+            </p>
+
+          </div>
+
+          <Link to="/" className="btn-retour-md">
+            ⬅ Homepage
+          </Link>
         </div>
+
       </div>
-    </main>
+    </div>
   );
 }
-
-export default Ailal;

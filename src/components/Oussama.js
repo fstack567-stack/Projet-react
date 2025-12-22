@@ -1,37 +1,57 @@
 import { Link } from "react-router-dom";
-import "../styles/oussama.css";
+import "../styles/style.css";
 
-function Oussama() {
+import calendarIcon from "../assets/icons/calendar.png";
+import emailIcon from "../assets/icons/email.png";
+import locationIcon from "../assets/icons/location.png";
+import cefIcon from "../assets/icons/cef.png"
+
+export default function Oussama() {
   return (
-    <div className="body1">
-      <div className="card">
-        <div className="avatar">
-          <img src="/images/Oussama.jpg" alt="k.O" />
+    <div className="container-alanbar">
+      <div className="profile-card-alanbar">
+
+       
+        <div className="image-wrapper-alanbar">
+          <img
+            src="/images/oussama.jpg"
+            alt="Mounia Alanbar"
+            className="profile-alanbar"
+          />
         </div>
-        <div className="info">
-          <div className="info-row">
-            <div className="label">Nom</div>
-            <div className="value">Kazzi</div>
+
+        <div className="card-alanbar">
+          <h2 className="name-alanbar">Oussama Kazzi</h2>
+          <p className="subtitle-alanbar">Web Development Student</p>
+
+          <div className="info-alanbar">
+            <p>
+              <img src={calendarIcon} alt="Date" className="info-icon" />
+              04 / 04 / 2002
+            </p>
+
+            <p>
+              <img src={emailIcon} alt="Email" className="info-icon" />
+              oussamakazzi4@gmail.com
+            </p>
+
+            <p>
+              <img src={locationIcon} alt="Location" className="info-icon" />
+              Agadir, Morocco
+            </p>
+            <p>
+              <img src={cefIcon} alt="cef" className="info-icon" />
+              2002040400396
+            </p>
+
           </div>
-          <div className="info-row">
-            <div className="label">Prénom</div>
-            <div className="value">Oussama</div>
-          </div>
-          <div className="info-row">
-            <div className="label">Email</div>
-            <div className="value">oussamakazzi4@gmail.com</div>
-          </div>
-          <div className="info-row">
-            <div className="label">CEF</div>
-            <div className="value">2002040400396</div>
-          </div>
-          <Link to="/" className="btn">
-            Retour
+
+          <Link to="/" className="btn-retour-md">
+            ⬅ Homepage
           </Link>
         </div>
+
       </div>
     </div>
   );
 }
-
-export default Oussama;

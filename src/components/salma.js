@@ -21,7 +21,7 @@ export default function Salma() {
         </div>
 
         <div className="card-alanbar">
-          <h2 className="name-alanbar">Oussama Kazzi</h2>
+          <h2 className="name-alanbar">Salma Zoukrati</h2>
           <p className="subtitle-alanbar">Web Development Student</p>
 
           <div className="info-alanbar">

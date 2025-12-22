@@ -47,7 +47,7 @@ export default function Oussama() {
           </div>
 
           <Link to="/" className="btn-retour-md">
-            ⬅ Homepage
+            ⬅ Retour
           </Link>
         </div>
 

@@ -22,6 +22,7 @@ jobs:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
           SONAR_HOST_URL: ${{ secrets.SONAR_HOST_URL }}
         run: |
+        
           "C:\sonar-scanner\bin\sonar-scanner.bat" ^
             -Dsonar.projectKey=Projet-react ^
             -Dsonar.sources=. ^

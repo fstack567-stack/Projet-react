@@ -32,7 +32,7 @@ export default function Container() {
 
       <p>
         <Link to="/details" className="more-details-link">
-          Plus de détails TEST 0666666666666 &rarr;
+          Plus de détails TEST 8888 &rarr;
         </Link>
       </p>
 

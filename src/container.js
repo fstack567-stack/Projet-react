@@ -28,7 +28,7 @@ const users = [
 export default function Container() {
   return (
     <div className="container-page">
-      <h1 className="title">CMC AGADIR</h1>
+      <h1 className="title">CMC AGADIR DRARGA</h1>
 
       <p>
         <Link to="/details" className="more-details-link">
